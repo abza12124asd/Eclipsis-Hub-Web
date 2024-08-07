@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "api/check-key/index.js", "use": "@vercel/node" },
+    { "src": "api/version/index.js", "use": "@vercel/node" }
+  ],
+  "routes": [
+    { "src": "/api/check-key", "dest": "/api/check-key/index.js" },
+    { "src": "/api/version", "dest": "/api/version/index.js" }
+  ]
+}
