@@ -39,6 +39,7 @@ const Home = (props) => {
             <h1 className="home-text7 thq-heading-1">Eclipsis Hub</h1>
           </Fragment>
         }
+        rootClassName="hero7-root-class-name"
       ></Hero7>
     </div>
   )

@@ -41,6 +41,11 @@
   display: inline-block;
   text-align: center;
 }
+.hero7-root-class-name {
+  top: 300px;
+  left: 0px;
+  position: absolute;
+}
 @media(max-width: 479px) {
   .hero7-actions {
     width: 100%;

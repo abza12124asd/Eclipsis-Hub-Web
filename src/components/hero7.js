@@ -6,7 +6,7 @@ import './hero7.css'
 
 const Hero7 = (props) => {
   return (
-    <div className="thq-section-padding">
+    <div className={`thq-section-padding ${props.rootClassName} `}>
       <div className="hero7-max-width thq-section-max-width">
         <div className="hero7-content">
           <h1>
@@ -69,6 +69,7 @@ Hero7.defaultProps = {
   content1: undefined,
   action2: undefined,
   heading1: undefined,
+  rootClassName: '',
 }
 
 Hero7.propTypes = {
@@ -76,6 +77,7 @@ Hero7.propTypes = {
   content1: PropTypes.element,
   action2: PropTypes.element,
   heading1: PropTypes.element,
+  rootClassName: PropTypes.string,
 }
 
 export default Hero7
