@@ -16,27 +16,51 @@ const Home = (props) => {
         action1={
           <Fragment>
             <span className="home-text thq-body-small">
-              <span>Join Discord</span>
-              <br></br>
+              <a
+                href="https://discord.gg"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Join Discord
+              </a>
+              <a
+                href="https://discord.gg"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <br></br>
+              </a>
             </span>
           </Fragment>
         }
         action2={
           <Fragment>
-            <span className="home-text3 thq-body-small">
-              <span>Get Script</span>
-              <br></br>
+            <span className="home-text2 thq-body-small">
+              <a
+                href="https://github.com/abza12124asd/EclipsisHub"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                Get Script
+              </a>
+              <a
+                href="https://github.com/abza12124asd/EclipsisHub"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <br></br>
+              </a>
             </span>
           </Fragment>
         }
         content1={
           <Fragment>
-            <p className="home-text6 thq-body-large"></p>
+            <p className="home-text4 thq-body-large"></p>
           </Fragment>
         }
         heading1={
           <Fragment>
-            <h1 className="home-text7 thq-heading-1">Eclipsis Hub</h1>
+            <h1 className="home-text5 thq-heading-1">Eclipsis Hub</h1>
           </Fragment>
         }
         rootClassName="hero7-root-class-name"

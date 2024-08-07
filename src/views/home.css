@@ -11,17 +11,19 @@
   color: var(--dl-color-theme-neutral-dark);
   display: inline-block;
   text-align: center;
+  text-decoration: underline;
 }
-.home-text3 {
+.home-text2 {
   color: var(--dl-color-theme-neutral-dark);
   display: inline-block;
   text-align: center;
+  text-decoration: underline;
 }
-.home-text6 {
+.home-text4 {
   display: inline-block;
   text-align: center;
 }
-.home-text7 {
+.home-text5 {
   display: inline-block;
   font-size: 100px;
   text-align: center;

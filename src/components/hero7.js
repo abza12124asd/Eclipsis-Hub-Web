@@ -32,7 +32,7 @@ const Hero7 = (props) => {
           </p>
           <div className="hero7-actions">
             <div className="hero7-container">
-              <button className="thq-button-filled hero7-button">
+              <button type="button" className="thq-button-filled hero7-button">
                 <span>
                   {props.action1 ?? (
                     <Fragment>
